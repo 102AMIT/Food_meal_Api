@@ -437,6 +437,191 @@ a{
 }
 
 
+/* adding media query */
+
+@media screen and (max-width: 1228px) {
+   
+    .fav-btn,.search-btn{
+        font-size: 0.7rem;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-heading{
+        font-size: 1rem;
+    }
+    #input-area{
+        height: 25%;
+    }
+    #logo-img img{
+        height: 70%;
+        width: 14%;
+    }
+    #meal-search{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    .details-btn{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 120%;
+        
+
+    }
+    #details-button-res{
+        font-size: 0.9rem;
+        
+        /* font-weight: 500; */
+        position: absolute;
+        
+        
+    }
+    #details-button a{
+        /* margin-top: 8px; */
+        /* border: 2px solid red; */
+        text-align: center;
+        position: relative;
+        /* margin-top: 60px; */
+        /* margin-left: -10px; */
+        margin-right: 20px;
+    }
+
+    .fa-heart{
+        font-size: 25px;
+    }
+    .meal-name{
+        font-size: 0.8rem;
+    }
+
+  }
+  @media screen and (max-width: 900px) {
+   
+    .fav-btn,.search-btn{
+        font-size: 0.6rem;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-heading{
+        font-size: 1rem;
+    }
+    #input-area{
+        height: 25%;
+    }
+    #logo-img img{
+        height: 70%;
+        width: 14%;
+    }
+    #meal-search{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    .details-btn{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 120%;
+        
+
+    }
+    #details-button-res{
+        font-size: 0.9rem;
+        
+        /* font-weight: 500; */
+        position: absolute;
+        
+        
+    }
+    #details-button a{
+        /* margin-top: 8px; */
+        /* border: 2px solid red; */
+        text-align: center;
+        position: relative;
+        /* margin-top: 60px; */
+        /* margin-left: -10px; */
+        margin-right: 20px;
+    }
+
+    .fa-heart{
+        font-size: 25px;
+    }
+    .meal-name{
+        font-size: 0.8rem;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+   
+    .fav-btn,.search-btn{
+        font-size: 0.5rem;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-heading{
+        font-size: 1rem;
+    }
+    #input-area{
+        height: 25%;
+    }
+    #logo-img img{
+        height: 70%;
+        width: 14%;
+    }
+    #meal-search{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    .details-btn{
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 120%;
+        
+
+    }
+    #details-button-res{
+        font-size: 0.8rem;
+        
+        /* font-weight: 500; */
+        position: absolute;
+        
+        
+    }
+    #details-button a{
+        /* margin-top: 8px; */
+        /* border: 2px solid red; */
+        text-align: center;
+        position: relative;
+        /* margin-top: 60px; */
+        /* margin-left: -10px; */
+        margin-right: 20px;
+    }
+
+    .fa-heart{
+        font-size: 20px;
+    }
+    .meal-name{
+        font-size: 0.8rem;
+    }
+
+  }
+
+
 
 
 
