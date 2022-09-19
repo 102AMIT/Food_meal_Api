@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Meal </title>
+    <!-- linking  fontawasome -->
+    <script src="https://kit.fontawesome.com/86dd55b3e9.js" crossorigin="anonymous" defer></script>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- this is container contain the All the data in this page  -->
+    <div id="container">
+        <!-- this is header conatin logo and input and search area -->
+        <section id="header">
+        <div id="logo-img">
+        <img src="./assets/meal_logo.png">
+        <h1>Find Your Meal Here.....!</h1>
+        </div>
+
+        <!-- this is input area -->
+        <div id="input-area">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <!--  -->
+            <input id="meal-search" type="text" placeholder="Search Your Meal here...">
+            <!--  -->
+            <button class="search-btn" type="submit">Search</button>
+            <!--  -->
+            <a href="./fav.html" class="fav-btn">Favourites</a>
+
+        </div>
+        </section>
+
+        <!-- Searched mile list show here  -->
+        <section id="meal-area">
+
+            <!-- here we are adding the list of all elemant via Java Script  -->
+            <h2 class="item-heading">Your Items</h2>
+            <div class="meal-list" >
+            <!-- <div class="meal-result">
+                <div class="meal-img">
+                    
+                    <img class=meal-result-img src="./assets/meal_logo.png" alt="">
+
+                </div>
+                    <h3 class="meal-name">MY FIRST MEAL</h3>
+                    <div class="details-btn-container">
+                    <div class="details-btn">
+                    
+                    <a href="">Details</a>
+                    
+                    </div>
+                    <i class="fa-solid fa-heart"></i>
+                    
+                </div>
+        
+
+        </div> -->
+
+
+
+        </section>
+
+    </div>
+
+    <!-- adding the js file of this page -->
+    <script src="./index.js"></script>
+    <script src="./favbutton.js"></script>
+    
+</body>
+</html>
